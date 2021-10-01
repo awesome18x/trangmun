@@ -14,7 +14,11 @@ export class AppComponent {
     this.isShowResult = true;
   }
 
-  uploadFiles(files: File){
-
+  uploadFiles(event: Event){
+    if(event) {
+      setTimeout(() => {
+        this.isShowResult = true;
+      }, 300);
+    }
   } 
 }

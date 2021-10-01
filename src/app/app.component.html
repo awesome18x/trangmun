@@ -10,7 +10,7 @@
                 <label for="file-upload" class="btn" >
                   <i class="fa fa-cloud-upload"></i> chọn file
                 </label>
-              <input id="file" type="file" (change)="uploadFiles($event.target.files)"/>
+              <input id="file-upload" type="file" #file (change)="uploadFiles($event)"/>
               <img src="assets/images/tbhyt.jpeg" alt="">
               </div>
               
