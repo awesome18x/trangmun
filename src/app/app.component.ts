@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'trangmun';
+  isShowResult = false;
+  fileToUpload: File | null = null;
+
+  uploadFile() {
+    this.isShowResult = true;
+  }
+
+  uploadFiles(files: File){
+
+  } 
 }

@@ -1,0 +1,93 @@
+section{
+    padding: 2rem 9%;
+}
+
+.btn{
+    margin-top: 1rem;
+    padding: .5rem 2rem;
+    display: inline-block;
+    border-radius: .5rem;
+    border: .2rem solid var(--black);
+    font-size: 1rem;
+    color: var(--black);
+    cursor: pointer;
+    height: 3rem;
+}
+
+.btn:hover{
+    background: var(--orange);
+    color: #fff;
+}
+
+.heading{
+    font-size: 3.5rem;
+    color: var(--black);
+    text-align: center;
+    padding: 2rem 0 3rem;
+}
+
+.heading span{
+    color: #fff;
+    background: var(--orange);
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%, 100% 99%, 0 100%, 7% 50%, 0 0);
+}
+
+
+.features .box-container{
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    // gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.features .box-container .box{
+    // display: flex;
+    // justify-content: space-around;
+    padding: 2em 2rem 3rem;
+    background: #fff;
+    text-align: center;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 5rem;
+}
+.features .box-container .box .content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.features .box-container .box:hover{
+    outline: var(--outline-hover);
+    outline-offset: 0;
+}
+
+.features .box-container .box img{
+    // margin: 1rem 0;
+    height: 15rem;
+}
+
+.features .box-container .box h3{
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--black);
+}
+
+.features .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
